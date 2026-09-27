@@ -1,7 +1,7 @@
 const int MOIST_PIN = 34;              // ADC1, input only 
 // measured for this probe in Part A 
-const int RAW_DRY = 3100;              // in air 
-const int RAW_WET = 1350;              // in water 
+const int RAW_DRY = 4095;              // in air 
+const int RAW_WET = 2700;              // in water 
 
 int readMoistureRaw(int n = 10) {      // average to steady the reading 
   long sum = 0; 
