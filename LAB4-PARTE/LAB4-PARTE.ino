@@ -12,7 +12,6 @@ const int RAIN_PIN = 36;        // input only
 const int OVERRIDE_PIN = 19;    // Override switch
 const int DHT_PIN = 32;         // DHT22
 #define DHT_TYPE DHT22
-
 DHT dht(DHT_PIN, DHT_TYPE);
 
 // LCD
